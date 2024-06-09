@@ -69,7 +69,7 @@ import os
 # openAI set-up
 
 # Directly passing the API key to the client constructor
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-X4yRd1MtjoescG8kO")
 messages = [{"role": "system", "content": "you are a helpful assistant"}]
 
 """Secondly, package pytsx3 is applied to tranform the text response into voice output. A female voice is preferred. \\"""
